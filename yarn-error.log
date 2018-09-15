@@ -1,0 +1,61 @@
+Arguments: 
+  /Users/carlos/.nvm/versions/node/v8.11.2/bin/node /Users/carlos/.yarn/bin/yarn.js add
+
+PATH: 
+  /Users/carlos/.yarn/bin:/Users/carlos/.config/yarn/global/node_modules/.bin:/Users/carlos/.nvm/versions/node/v8.11.2/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/carlos/.yarn/bin:/Users/carlos/.config/yarn/global/node_modules/.bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.11.2
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "sha256-visualizer",
+    "version": "1.0.0",
+    "description": "Visualize sha256 algorithm in the browser.",
+    "main": "sha256.js",
+    "scripts": {
+      "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+      "start": "npm run dev",
+      "lint": "eslint --ext .js,.vue src",
+      "build": "node build/build.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+      "copy-webpack-plugin": "^4.5.1",
+      "friendly-errors-webpack-plugin": "^1.7.0",
+      "html-webpack-plugin": "^3.2.0",
+      "node-notifier": "^5.2.1",
+      "portfinder": "^1.0.13",
+      "webpack": "^3.6.0",
+      "webpack-bundle-analyzer": "^2.9.0",
+      "webpack-dev-server": "^2.9.1",
+      "webpack-merge": "^4.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Missing list of packages to add to your project.
+      at new MessageError (/Users/carlos/.yarn/lib/cli.js:186:110)
+      at Object.<anonymous> (/Users/carlos/.yarn/lib/cli.js:40587:13)
+      at Generator.next (<anonymous>)
+      at step (/Users/carlos/.yarn/lib/cli.js:98:30)
+      at /Users/carlos/.yarn/lib/cli.js:116:14
+      at new Promise (<anonymous>)
+      at new F (/Users/carlos/.yarn/lib/cli.js:23451:28)
+      at Object.<anonymous> (/Users/carlos/.yarn/lib/cli.js:95:12)
+      at Object.run (/Users/carlos/.yarn/lib/cli.js:40599:19)
+      at run (/Users/carlos/.yarn/lib/cli.js:89113:20)
